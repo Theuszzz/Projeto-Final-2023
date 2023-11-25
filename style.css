@@ -147,10 +147,13 @@ h6{
     font-size: 2rem;
     margin-left: 20px;
 }
-form{
-    background-color: #FFF;
-    width: 50%;
-    align-items: center;
+main{
+    background-color: #dac7a65f;
+    width: 40%;
+    position: relative;
+    margin: auto;
+    padding: 60px;
+    border-radius: 20px ;
 }
 
 
