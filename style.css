@@ -102,7 +102,7 @@ h3 {
 
 #description{
     z-index: 10;
-    font-size: 4.5rem;
+    font-size: 4rem;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
@@ -147,3 +147,29 @@ h6{
     font-size: 2rem;
     margin-left: 20px;
 }
+form{
+    background-color: #FFF;
+    width: 50%;
+    align-items: center;
+}
+
+
+
+/*conteudo*/
+
+nav, #titulo, h1, h3, h4, h6{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/*mobile*/
+
+@media screen and (max-width: 390px){
+    #banner-sobre, #description{
+        width: 100%;
+    }
+}
+
+
+
+/*h3, h4, #banner-sobre, #description*/
