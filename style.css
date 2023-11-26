@@ -168,11 +168,11 @@ nav, #titulo, h1, h3, h4, h6{
 /*mobile*/
 
 @media screen and (max-width: 390px){
-    #banner-sobre, #description{
+    #banner-sobre, #description, #container{
         width: 100%;
     }
 }
 
 
 
-/*h3, h4, #banner-sobre, #description*/
+/*não respondeu*/
