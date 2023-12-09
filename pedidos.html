@@ -22,35 +22,51 @@
                     <a href="lojas.html">Lojas</a>
                     <a href="pedidos.html">Pedidos</a>
                 </nav>
+                
                 <main>
                     <h5>Pedido:</h5>
-                    <form name="frm-nome" method="GET" action="">
+                    <form id="frm-nome" name="frm-nome" method="GET" action="">
                         <label for="strnome">Nome:</label>
-                        <br>
-                        <input id="strnome" type="text" name="nome" size="50" placeholder="Nome Completo">
+                        <input id="strnome" type="text" name="nome"  placeholder="Nome Completo">
                         <br>
                         <form name="frm-endereco" method="GET" action="">
                             <label for="strendereco">Endereço:</label>
-                            <br>
-                            <input id="strendereco" type="text" name="nome" size="50" placeholder="Endereço">
+                            <input id="strendereco" type="text" name="nome"  placeholder="Endereço">
                             <br>
                             <label for="numtel">Telefone:</label>
+                            <input id="numtel" type="tel" name="telefone"  placeholder="(99)99999-9999">
                             <br>
-                            <input id="numtel" type="tel" name="telefone" size="50" placeholder="(99)99999-9999">
+                            <label for="Sabor">Sabor :</label>
+                            <br>
+                                <select id="sabor" name="sabor">
+                                    <option>Selecione</option>
+                                    <option>Marguerita</option>
+                                    <option>Shitake</option>
+                                    <option>Parma</option>
+                                    <option>Vegana</option>
+
+                                </select><br>
+            
+                            
+                                <legend>Forma de pagamento:</legend><br>
+                                <select>
+                                    <option>
+                                        Cartao de Debito
+                                    </option>
+                                    <option>
+                                        Cartao de Credito
+                                    </option>
+                                    <option>
+                                        Pix
+                                    </option>
+                                    <option>
+                                        Dinheiro
+                                    </option>
+                                </select>
+                                
                             <br>
             
-                            <fieldset>
-                                <legend>Sabor:</legend>
-                                <input id="marg" type="radio" name="sabor" value="marguerita"> <label for="marg">Marguerita</label>
-                                
-                                <input id="parma" type="radio" name="sabor" value="parma"> <label for="parma">Parma</label> 
-                                <br>
-                                <input id="shitake" type="radio" name="sabor" value="shitake"> <label for="shitake">Shitake</label>
-                                
-                                <input id="veg" type="radio" name="sabor" value="vegana"> <label for="veg">Vegana</label>
-                            </fieldset>
-            
-                            </fieldset>
+                            
                             <label for="msg">Adicional:</label>
                             <br>
                             <textarea name="" id="adc" cols="50" rows="4">
